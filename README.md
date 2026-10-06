@@ -2,7 +2,7 @@
 
 # GlassUI
 
-A **GlassMorphism** UI library for Roblox, styled after the classic `redz-library-v5` aesthetic — dark gradient backgrounds, thin strokes, blurple accent, soft tween animations, and 6–8px corners.
+A **GlassMorphism** UI library for Roblox, styled after the classic `UI library` aesthetic — dark gradient backgrounds, thin strokes, blurple accent, soft tween animations, and 6–8px corners.
 
 ## 📸 Preview
 
@@ -17,4 +17,4 @@ A **GlassMorphism** UI library for Roblox, styled after the classic `redz-librar
 Drop `GlassUI.lua` anywhere accessible from your executor.
 
 ```lua
-local GlassUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOU/GlassUI/main/GlassUI.lua"))()
+local GlassUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/badalgamerz309-cyber/Luau-Library-UI/main/GlassUI"))()
