@@ -1,20 +1,26 @@
-# Luau-Library-UI
+# GlassUI — A GlassMorphism Remake of `redz-library-v5`
 
-# GlassUI
+GlassUI preserves the **exact public API and internal architecture** of `redz-library-v5` — theme tag system, `E()` element creator, `D:Draggable` lerp dragging, resizers, dialog system, notify groups, file persistence — while replacing the theme with a **GlassMorphism** visual language: translucent gradients, soft blurple accents, low-opacity strokes, larger corner radii, and smooth `Quint`/`Back` tweens.
 
-A **GlassMorphism** UI library for Roblox, styled after the classic `UI library` aesthetic — dark gradient backgrounds, thin strokes, blurple accent, soft tween animations, and 6–8px corners.
+## ✨ What's New vs. redz-v5
 
-## 📸 Preview
+| Feature | redz-v5 | GlassUI |
+|---|---|---|
+| Theme | Darker only | Glass / Void / Frost |
+| Background | Flat gradient | Glass gradient + optional image |
+| Corner radius | 6–8px | 10–14px |
+| Stroke opacity | 1.0 | ~0.2 (subtle rim light) |
+| Notifications | Slide-in from right | **Bottom → top** slide |
+| Floating restore icon | ❌ | ✅ Draggable, customizable |
+| CheckBox | ❌ | ✅ |
+| UpperTag (GitHub style) | ❌ | ✅ |
+| MultiTab | ❌ | ✅ |
+| Lucide icons | ❌ | ✅ |
+| Custom background image | ❌ | ✅ |
 
-- Dark gradient window with rounded corners and glass border
-- Left sidebar tabs with animated selection indicator
-- Every control animates on hover and click
-- Floating restore icon (fully customizable, draggable)
-- Notifications slide in from **bottom → top**
+All redz-v5 features still work identically: `MakeWindow`, `MakeTab`, `AddToggle`, `AddButton`, `AddSlider`, `AddDropdown`, `AddTextBox`, `AddParagraph`, `AddSection`, `AddDiscordInvite`, `Dialog`, `Notify`, `NewNotifyGroup`, `SetTheme`, `SetUIScale`, `ReadFile`, `WriteFile`, `SetFlag`, `GetFlag`, resizers, minimize/restore.
 
-## 🚀 Installation
-
-Drop `GlassUI.lua` anywhere accessible from your executor.
+## 📦 Installation
 
 ```lua
 local GlassUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/badalgamerz309-cyber/Luau-Library-UI/main/GlassUI"))()
